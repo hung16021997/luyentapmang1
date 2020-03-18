@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai8</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    for (let i=0; i<10; i++){
+        let a = Math.floor(Math.random()*100);
+        mang.push(a);
+    }
+    document.write(mang + "<br>");
+    mang.sort(function (c,d) { return d-c});
+    document.write(mang);
+    </script>
+</body>
+</html>
